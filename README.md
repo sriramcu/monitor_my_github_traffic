@@ -1,11 +1,14 @@
 # Analyze GitHub Traffic For My Repositories 
 
-Simple program to monitor the traffic in terms of 
+Have you ever wanted to check the traffic on ALL your repositiories, but were too lazy to click on insights after manually navigating to all your repos? Well, now I've written a program that will open the traffic graphs for all your repos simulataneously, saving you the hassle of clicking a million times. All you have to do is run the program.
+
+This project provides a simple program to monitor the traffic in terms of 
  views on each of my GitHub 
  repositories by opening each repo's traffic insights 
  page in a browser window. 
  
-This script uses the GitHub API to retrieve a list of repositories for a given username and token. It then opens each repository's traffic page in Google Chrome.
+It uses the GitHub API to retrieve a list of repositories for a given username and 
+token. It then opens each repository's traffic page in Google Chrome.
 
 ## Setup and Requirements
 1. Python 3.x
